@@ -1,0 +1,20 @@
+.ref-main{
+    background-image: url(../public/img/bg-ref.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    @include center;
+    &-bg{
+        background-color: $background;
+    }
+    &-title{
+        padding-top: 30px;
+    }
+    &-img{
+        width: 600px;
+        height: 150px;
+        padding: 0   0   0px    0;
+        border: 2px solid rgb(241, 221, 41);
+        border-radius: 30px;
+        margin-bottom: 40px;
+    }    
+}
